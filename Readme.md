@@ -4,11 +4,11 @@ A simple web-based chatbot interface built using HTML, CSS, and JavaScript. This
 ## 📁 Project Structure
 chatgpt-clone/ 
 
-├── public/                       # Static assets
+├── public/                                   # Static assets
 
 ├── src/ 
 
-│   ├── components/               # Reusable UI components
+│   ├── components/                           # Reusable UI components
 
 │   │   ├── ChatMessage.jsx 
 
@@ -24,31 +24,31 @@ chatgpt-clone/
 
 │   │   └── TypingIndicator.jsx 
 
-│   ├── context/                  # Global state management
+│   ├── context/                              # Global state management
 
 │   │   ├── ChatContext.jsx 
 
 │   │   └── ThemeContext.jsx 
 
-│   ├── hooks/                    # Custom React hooks
+│   ├── hooks/                                # Custom React hooks
 
 │   │   └── useChatHistory.js 
 
-│   ├── pages/                    # App pages
+│   ├── pages/                                # App pages
 
 │   │   └── Home.jsx 
 
-│   ├── services/                 # API services
+│   ├── services/                             # API services
 
 │   │   └── api.js 
 
-│   ├── utils/                    # Utility functions
+│   ├── utils/                                # Utility functions
 
 │   │   └── openaiApi.js 
 
-├── .env                          # Environment variables
+├── .env                                       # Environment variables
 
-└── README.md                     # Project documentation
+└── README.md                                  # Project documentation
 
 
 ## 🚀 Features
