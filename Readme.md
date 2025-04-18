@@ -2,30 +2,54 @@
 A simple web-based chatbot interface built using HTML, CSS, and JavaScript. This project mimics the front-end layout of a ChatGPT-like interface, allowing for user input and simulated bot responses.
 
 ## 📁 Project Structure
-ChatGpt/ 
+chatgpt-clone/ 
+
 ├── public/                       # Static assets
+
 ├── src/ 
+
 │   ├── components/               # Reusable UI components
+
 │   │   ├── ChatMessage.jsx 
+
 │   │   ├── ChatWindow.jsx 
+
 │   │   ├── Layout.jsx 
+
 │   │   ├── MessageInput.jsx 
+
 │   │   ├── SettingMenu.jsx 
+
 │   │   ├── Sidebar.jsx 
+
 │   │   └── TypingIndicator.jsx 
+
 │   ├── context/                  # Global state management
+
 │   │   ├── ChatContext.jsx 
+
 │   │   └── ThemeContext.jsx 
+
 │   ├── hooks/                    # Custom React hooks
+
 │   │   └── useChatHistory.js 
+
 │   ├── pages/                    # App pages
+
 │   │   └── Home.jsx 
+
 │   ├── services/                 # API services
+
 │   │   └── api.js 
+
 │   ├── utils/                    # Utility functions
+
 │   │   └── openaiApi.js 
+
 ├── .env                          # Environment variables
+
 └── README.md                     # Project documentation
+
 
 ## 🚀 Features
 ⚡ Clean, responsive, and modern UI
