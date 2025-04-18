@@ -70,11 +70,11 @@ chatgpt-clone/
 
 ## 🧪 How to Run
 - Clone the repository or download the ZIP.
-- git clone https://github.com/your-username/ChatGpt-WebApp.git
+- git clone https://github.com/Aamir-786687/ChatGpt_Clone.git
 - cd ChatGpt-clone
 - npm install
 - npm run dev (to start the server)
-- Then open your browser at http://localhost:5173
+- Then open your browser at http://localhost:5174
 
 ## 📌 Future Improvements
 1. Integrate with a real chatbot API like OpenAI
