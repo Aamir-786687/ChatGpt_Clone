@@ -52,21 +52,21 @@ chatgpt-clone/
 
 
 ## 🚀 Features
-⚡ Clean, responsive, and modern UI
-💬 Real-time user message input
-🤖 Simulated chatbot responses
-📱 Mobile-friendly layout
-🌙 Light/Dark theme support
-🧠 Context API-based state management
+- ⚡ Clean, responsive, and modern UI
+- 💬 Real-time user message input
+- 🤖 Simulated chatbot responses
+- 📱 Mobile-friendly layout
+- 🌙 Light/Dark theme support
+- 🧠 Context API-based state management
 
 ## 🛠️ Technologies Used
-React.js – Component-based frontend library
-JavaScript – Programming language
-Tailwind CSS – Utility-first CSS framework
+- React.js – Component-based frontend library
+- JavaScript – Programming language
+- Tailwind CSS – Utility-first CSS framework
 
 ## 🧪 Getting Started
 # Prerequisites
-Make sure you have Node.js and npm installed.
+- Make sure you have Node.js and npm installed.
 
 ## 🧪 How to Run
 - Clone the repository or download the ZIP.
