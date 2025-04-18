@@ -1,4 +1,3 @@
-// src/utils/openaiAPI.js
 export const fetchOpenAIResponse = async (userMessage) => {
     const API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
     const endpoint = 'https://api.openai.com/v1/chat/completions';

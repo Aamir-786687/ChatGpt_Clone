@@ -1,5 +1,3 @@
-"use client"
-
 import { createContext, useState, useContext, useCallback, useEffect } from "react"
 import { v4 as uuidv4 } from "uuid"
 import { sendMessage as apiSendMessage } from "../services/api"
