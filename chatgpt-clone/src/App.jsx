@@ -6,14 +6,10 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route
-          path="/"
-          element={
-            <Layout>
-              <Home />
-            </Layout>
-          }
-        />
+        <Route path="/" element={ <Layout>
+                                    <Home />
+                                     </Layout>
+        }/>
       </Routes>
     </Router>
   )
