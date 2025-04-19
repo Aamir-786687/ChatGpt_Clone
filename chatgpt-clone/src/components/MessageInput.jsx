@@ -50,7 +50,7 @@ const MessageInput = () => {
           style={{ maxHeight: "200px" }}
           disabled={isTyping}
         />
-        <div className="absolute right-3 bottom-3">
+        <div className="absolute right-3 bottom-8">
           <button
             type="submit"
             disabled={!message.trim() || isTyping}
@@ -60,7 +60,7 @@ const MessageInput = () => {
                 : "text-gray-300 dark:text-gray-600 cursor-not-allowed"
             }`}
           >
-            <Send className="h-5 w-5" />
+            <Send className=" h-2s w-5" />
           </button>
         </div>
       </div>
