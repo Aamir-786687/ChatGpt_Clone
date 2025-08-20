@@ -4,11 +4,11 @@ import { User, Bot } from "lucide-react"
 
 const ChatMessage = ({ message }) => {
   const { theme } = useContext(ThemeContext)
-  const isUser = message.role === "user"
+  const isUser = message.role === "user" 
 
   // Function to format message content with basic markdown-like features
   const formatMessage = (content) => {
-    // Handle code blocks
+    // Handle code block
     let formattedContent = content.replace(/```([\s\S]*?)```/g, (match, code) => {
       return `<pre class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg my-4 overflow-x-auto font-mono text-sm"><code>${code}</code></pre>`
     })
